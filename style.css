@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.banner{
+    height: 581.6px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/Eduford/images/banner.png);
+    background-size: contain;
+position: relative;
+
+}
+.logo{
+  padding-top: 35px;
+  padding-left: 45px;
+    height: 40px;
+    width: 148px;
+}
+.content{
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+color: white;
+    position: absolute;
+    right: 0;
+    top: 0px;
+
+}
+.content li {
+padding-right: 10px;
+}
+.text-box{
+align-items: center;
+
+padding-left: 300px;
+    color: #777;
+    font-size: 14px;
+    font-family:  'Poppins', sans-serif;
+}
+.text-box h1{
+   padding-left: 100px;
+    color: white;
+    font-family:  'Poppins', sans-serif;
+    font-size: 50px;
+
+}
+.text-box button{
+    margin-left: 200px;
+    color: white;
+    background: none;
+    border-radius: 2px;
+    border-color: white;
+}
+.course{
+    margin-left: 192px;
+    text-align: center;
+    padding-top: 80px;
+    height:418.92px;
+    width: 1115.35px;
+    font-family:  'Poppins', sans-serif ;
+
+}
+.course h1{
+    font-size:22px;
+    font-family:  'Poppins', sans-serif ;
+}
+.course p{
+   font-size: small;
+   color: #777;
+   }
+.course1{
+    padding-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.course-content{
+    font-size: smaller;
+    line-height: 20px;
+    height: 190px;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px 12px;
+}
+.course-content h3{
+    font-size: 18px;
+}
+.campus{
+
+    font-family:  'Poppins', sans-serif ;
+    font-size: 12px;
+   text-align: center;
+}
+.campus p{
+    color: #777;
+}
+.campus-content{
+padding-top: 40px;
+    gap: 20px;
+   height: 521.81px;
+    display: flex;
+    justify-content: center;
+    
+}
+.campus-content img{
+    border-radius: 10px;
+    height: 450.81px;
+    width: 318.9px;
+}
+.facilities{
+    font-family:  'Poppins', sans-serif ;
+    font-size: 12px;
+   text-align: center;
+}
+.facilities h1{
+    font-size:22px;
+}
+
+.facilities p{
+    color: #777;
+}
+.facilities1{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.facilities1 img{
+    border-radius: 10px;
+    height:280px;
+width: 300px;
+}
+.facilities-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimony{
+    font-family:'Poppins', sans-serif ;
+    gap: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+.testimony h1{
+    font-size:30px;
+}
+.testimony p{
+    font-size:12px; 
+    color: #777;
+}
+.testimony-content{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.testimony1{
+    padding-top:20px ;
+   display: flex;
+    width: 400.73px;
+    height: 143px;
+border-radius: 10px;
+background: #fff3f3;
+
+}
+.testimony1 img{
+    height: 35px;
+    border-radius:50%;
+    margin-left: 20px;
+}
+.testimony2{
+    padding-top:20px ;
+    display: flex;
+     width: 400.73px;
+     height: 141px;
+    border-radius: 10px;
+    background: #fff3f3;
+ 
+ }
+ .testimony2 img{
+     height: 35px;
+     border-radius:50%;
+     margin-left: 20px;
+ }
+.fa {
+    color: gold;
+}
+.contact{
+    border-radius: 10px;
+    padding-top: 100px; 
+    padding-bottom: 100px;  
+margin-left: 120px;
+    width: 80%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/Eduford/images/banner2.jpg);
+}
+.contact h1{
+display: flex;
+padding-bottom: 15px;
+justify-content: center;
+  font-family: 'Poppins', sans-serif ; 
+  font-size: 25px; 
+  color: white;
+}
+.contact button{
+    margin-left: 400px;
+    
+    background: none;
+    font-family: 'Poppins', sans-serif ; 
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+   border-width: 2px;
+}
+.footer{
+    padding-top: 50px;
+    line-height: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif ; 
+}
+.footer h4{
+    font-size: small;
+    font-weight: bold;
+}
+.footer p{
+    color: #777;
+    font-size:10px;
+}
+.icons{
+    color: #f44336;
+    height: 17.6px;
+    display: flex;
+ justify-content: center;
+ gap: 30px;
+}
+.fa{
+    color: #f44336;
+}
