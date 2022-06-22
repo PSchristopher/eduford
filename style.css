@@ -7,8 +7,9 @@ body{
     height: 581.6px;
     width: 100%;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/banner.png);
-    background-size: contain;
+    background-size: cover;
 position: relative;
+background-repeat: no-repeat;
 
 }
 .logo{
@@ -42,14 +43,20 @@ padding-left: 300px;
     font-family:  'Poppins', sans-serif;
 }
 .text-box h1{
-   padding-left: 100px;
+   padding-left: 120px;
     color: white;
     font-family:  'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 70px;
 
 }
+.text-box p{
+    padding-left: 248px;
+    padding-top: 40px;
+}
 .text-box button{
-    margin-left: 200px;
+    margin-top: 29px;
+
+    margin-left: 456px;
     color: white;
     background: none;
     border-radius: 2px;
